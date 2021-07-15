@@ -28,19 +28,19 @@ const AboutSection = () => {
                 </motion.h2>
             </Hide>
             <Hide>
-            <motion.h2 variants={titleAnim}>true.</motion.h2>
+            <motion.h2 >true.</motion.h2>
             </Hide>
         </div>
-        <motion.p variants={fade}>
+        <motion.p >
           Contact us for any photography or videography ideas that you have. We
           have professionals with amazing skills to help you achieve it.
         </motion.p>
-        <motion.button variants={fade}>Contact Us</motion.button>
+        <motion.button >Contact Us</motion.button>
       </Description>
-      <Image>
-        <motion.img variants={photoAnim} src={homeImg1} alt="camera guy" />
-      </Image>
-      <Wave />
+      {/* <Image>
+        <motion.img  alt="camera guy" />
+      </Image> */}
+      
     </About>
   );
 };
